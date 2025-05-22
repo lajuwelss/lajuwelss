@@ -12,6 +12,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+const resumePath = path.join(__dirname, 'public/resume');
+console.log("Serving resumes from:", resumePath);
+app.use('/resume', express.static(resumePath));
+
 
 app.use("/images", express.static(path.join(__dirname, "images")));
 console.log("Serving images from", path.join(__dirname, "images"));
@@ -119,5 +123,6 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
 
 
