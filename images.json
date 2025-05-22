@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,1",
+    "title": "Modern UI Design"
+  },
+  {
+    "id": 2,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,2",
+    "title": "Minimalist Dashboard"
+  },
+  {
+    "id": 3,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,3",
+    "title": "Dark Theme App"
+  },
+  {
+    "id": 4,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,4",
+    "title": "Creative Layout"
+  },
+  {
+    "id": 5,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,5",
+    "title": "Typography Focus"
+  },
+  {
+    "id": 6,
+    "url": "https://source.unsplash.com/random/600x400/?design,ui,6",
+    "title": "Mobile First Approach"
+  }
+]
